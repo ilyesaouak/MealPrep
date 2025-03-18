@@ -265,6 +265,18 @@ const InventoryPage = () => {
           </p>
         </div>
 
+        <div className="flex justify-between items-center mb-6">
+          <h2 className="text-xl font-bold">My Ingredient Inventory</h2>
+          {ingredients.length > 0 && (
+            <Button
+              onClick={() => setShowAddDialog(true)}
+              className="bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2 rounded-full shadow-md hover:shadow-lg transition-all duration-200"
+            >
+              <Plus className="h-5 w-5 mr-2" /> Add Ingredient
+            </Button>
+          )}
+        </div>
+
         {loading ? (
           <div className="flex justify-center py-10">
             <div className="animate-spin rounded-full h-10 w-10 border-t-2 border-b-2 border-primary"></div>
