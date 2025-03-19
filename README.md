@@ -1,5 +1,5 @@
 ## Meal Prep Suggestions App
-
+![alt text](https://github.com/ilyesaouak/MealPrep/blob/main/image1.jpeg)
 A streamlined meal prep application that helps users plan and organize their weekly meals with personalized suggestions based on dietary preferences and available ingredients.
 
 ### Features
